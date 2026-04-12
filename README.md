@@ -48,8 +48,6 @@ Error: Process completed with exit code 1.
 
 # O que ele esperava receber e o que ele recebeu de fato?
 
-O teste esperava receber:
-
 {"resultado": 8}
 
 Mas a API retornou:
