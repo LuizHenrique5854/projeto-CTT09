@@ -1,4 +1,4 @@
-Qual foi a mensagem exata de erro que o Pytest imprimiu?
+# Qual foi a mensagem exata de erro que o Pytest imprimiu?
 
 Run pytest test_main.py
 ============================= test session starts ==============================
@@ -46,4 +46,12 @@ FAILED test_main.py::test_somar - AssertionError: assert {'resultado': 2} == {'r
 ========================= 1 failed, 1 passed in 0.38s ==========================
 Error: Process completed with exit code 1.
 
-O que ele esperava receber e o que ele recebeu de fato?
+# O que ele esperava receber e o que ele recebeu de fato?
+
+O teste esperava receber:
+
+{"resultado": 8}
+
+Mas a API retornou:
+
+{"resultado": 2}
